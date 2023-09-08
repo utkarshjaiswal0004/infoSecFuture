@@ -1,0 +1,54 @@
+.footer {
+  background-color: #00698a;
+  color: #fff;
+  padding: 20px 0 0 0;
+  bottom: 0;
+}
+
+Button.getInTouch {
+  background-color: #fff;
+  color: #00698a;
+}
+
+Button.getInTouch:hover {
+  background-color: #001534;
+}
+
+.centerData {
+  background-color: #001534; 
+}
+
+.social-icon {
+  color: #fff;
+  height: 20px;
+  width: 20px;
+}
+
+.info-link{
+    color:#B1B1B1;
+}
+
+
+.search-container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.search-box {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 8px 0 0 8px;
+    font-size: 16px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
