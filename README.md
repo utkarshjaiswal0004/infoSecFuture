@@ -1,3 +1,8 @@
+# Check Website at
+React sample website:  [InfoSecFuture Sample React Website](https://bucolic-paprenjak-299acc.netlify.app)
+
+![InfoSecFuture Website Screenshot](./screenshot.png)
+
 # InfoSecFuture React Website & NodeJs Server + API's
 
 Welcome to the InfoSecFuture repository! This is a React based website and Nodejs based server and API's created for react test website(below is the link for react repo).This repo code handles the user registration, email verification, error handling, login.
