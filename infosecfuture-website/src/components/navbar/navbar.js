@@ -59,7 +59,7 @@ function CustomNavbar() {
   useEffect(() => {
     const handleResize = () => {
 
-        if (window.innerWidth >= 500) {
+        if (window.innerWidth <= 860) {
             setIsMobile(true);
           } else {
             setIsMobile(false);
@@ -109,20 +109,20 @@ function CustomNavbar() {
             id={`offcanvasNavbar-expand-${isMobile}`}
             aria-labelledby={`offcanvasNavbarLabel-expand-${isMobile}`}
             placement="end"
-            className= {`${isMobile? "my-4" :""}`}
+            className= {`${isMobile? "my-3" :""}`}
           >
             <Offcanvas.Header closeButton>
-              <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${isMobile}`}>
-                <img src="./logo.png" alt="infoSecFuture" className="img-fluid center" />
+              <Offcanvas.Title className="item-center text-center mx-auto" id={`offcanvasNavbarLabel-expand-${isMobile}`}>
+                <img src="./logo2.png" alt="infoSecFuture" className="img-fluid center " />
               </Offcanvas.Title>
             </Offcanvas.Header>
             {isMobile &&
-            <hr className="divider-line d-md-none" />}
-            <Offcanvas.Body>
-              <Nav className="d-flex justify-content-center w-100">
+            <hr className="divider-line d-lg-none my-3 " />}
+            <Offcanvas.Body className="my-0 py-0">
+              <Nav className="d-flex justify-content-center w-100   ">
                 {navLinks.map((link, index) => (
                   <Link
-                    className="mx-3  gray-link"
+                    className="mx-3  my-2 my-lg-0 gray-link"
                     key={index}
                     to={link.url}
                     onClick={closeMenu}
@@ -131,6 +131,7 @@ function CustomNavbar() {
                   </Link>
                 ))}
               </Nav>
+<div className="login-logout-btn d-flex">
               {isLoggedIn ? (
                 // Show Logout button if user is logged in
                 <button 
@@ -157,6 +158,7 @@ function CustomNavbar() {
                   </Link>
                 </>)
                 }
+                </div>
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

@@ -53,3 +53,15 @@ a.register:hover, button.register:hover {
 .divider-line {
     border-top: 1px solid #ddd;  
   }
+
+
+  @media (max-width: 860px) {
+
+    a.gray-link, a.btn{
+      font-size:1.2rem;
+    }
+    div.login-logout-btn{
+      position: fixed;
+    bottom: 40px;
+    }
+  }
