@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Verification Success</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: green;
+        }
+        #countdown {
+            color: green;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Congratulations, your account is verified!</h1>
+    <p>THis page will close in <span id="countdown">8</span> seconds.</p>
+
+    <script>
+        function startCountdown() {
+            let seconds = 8;
+            const countdownElement = document.getElementById('countdown');
+
+            function updateCountdown() {
+                countdownElement.textContent = seconds;
+                seconds--;
+
+                if (seconds < 0) {
+                    // Redirect to another page or close the current tab
+                    window.location.href = `http://localhost:3000//login-signup`;
+                } else {
+                    setTimeout(updateCountdown, 1000); 
+                }
+            }
+
+            updateCountdown();
+        }
+
+        // Start the countdown when the page loads
+        window.onload = startCountdown;
+    </script>
+</body>
+</html>
