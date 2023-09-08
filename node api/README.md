@@ -2,12 +2,6 @@
 
 Welcome to the InfoSecFuture Nodejs repository! This is a Nodejs based server and API's created for react test website(below is the link for react repo).This repo code handles the user registration, email verification, error handling, login.
 
-## Table of Contents
-- [Demo](#demo)
-
-## Demo
-
-You can check out the live demo of the InfoSecFuture website here: [Demo Link](https://www.infosecfuture.com)
 
 ## Installation
 

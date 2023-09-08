@@ -19,9 +19,9 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/utkarshjaiswal0004/infosecfuture-node-api.git
+   git clone https://github.com/utkarshjaiswal0004/infoSecFuture.git
 
-2. Install the packages:
+2. Install the packages after moving into the node api folder:
 
    ```bash
    npm install
@@ -29,10 +29,10 @@ To run this project locally, follow these steps:
 3. You will see MongoDb Connected message in the terminal
 
 
-4. Now to run the app, first clone the react test website :
+4. Now to run the app, first clone the react test website in infosecfuture-website folder of repo :
 
    ```bash
-   git clone https://github.com/utkarshjaiswal0004/infosecfuture-website.git
+   git clone https://github.com/utkarshjaiswal0004/infoSecFuture.git
 
 
 ## react
@@ -47,11 +47,6 @@ Welcome to the InfoSecFuture website repository! This is a React-based website s
 - [Contributing](#contributing)
 - [License](#license)
 
-## Demo
-
-You can check out the live demo of the InfoSecFuture website here: [Demo Link](https://www.infosecfuture.com)
-
-![InfoSecFuture Website Screenshot](./screenshot.png)
 
 ## Features
 
@@ -64,16 +59,16 @@ You can check out the live demo of the InfoSecFuture website here: [Demo Link](h
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
+1. Clone the repository and get into the infosecfuture-website folder:
 
    ```bash
-   git clone https://github.com/utkarshjaiswal0004/infosecfuture-website.git
+   git clone https://github.com/utkarshjaiswal0004/infoSecFuture.git
 
 
-2. Clone the Node Server repository which holds the apis and db connection:
+2. Clone the Node Server repository which holds the apis and db connection and is inside the node api folder from repo:
 
    ```bash
-   git clone https://github.com/utkarshjaiswal0004/infosecfuture-node-api.git
+   git clone https://github.com/utkarshjaiswal0004/infoSecFuture.git
 
 3. Install the dependencies by running npm install for both close repo:
 
