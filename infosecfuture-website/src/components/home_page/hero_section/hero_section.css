@@ -1,0 +1,42 @@
+ 
+.hero-section {
+    background-image: url('../../../images/home/background.jpg');  
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;  
+    color: #fff;
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color:#133D7A;
+    font-weight:700;
+  }
+  .hero-content h3 { 
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color:#133D7A;
+    font-weight:500;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color:#676767;
+  }
+  
+  .hero-content button {
+    font-size: 1rem;
+  }
+  
+
+  Button.hire-btn{
+    background-color:#133D7A;
+    padding:14px 20px;
+    font-size:large;
+  }
