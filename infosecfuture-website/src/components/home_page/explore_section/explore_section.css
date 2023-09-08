@@ -1,0 +1,46 @@
+
+ .explore-section {
+    padding: 40px 0;
+  }
+ 
+  .explore-section h2{
+    font-weight:600  
+ }
+ .explore-section h4{
+    font-weight:300  
+ }
+
+ .explore-section .card-title{
+    font-size:1.8rem;
+    font-weight:400;
+    color:#133D7A;
+ }
+
+ 
+ .explore-section .card-subtitle{
+    font-size:1.2rem;
+    font-weight:400;
+    color:#000000;
+ }
+ 
+
+ Button.explore-btn{
+    background-color:#133D7A;
+    color:#fff;
+ }
+
+ .explore-section .card-text{
+    font-size:1rem;
+    font-weight:300; 
+ }
+
+
+  @media (max-width: 768px) {
+    .explore-section h2 {
+      font-size: 24px;
+    }
+    .explore-section .card {
+      margin-bottom: 20px;
+    }
+  }
+  
