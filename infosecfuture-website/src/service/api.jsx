@@ -1,7 +1,7 @@
 
 //base URL for calling API
 
-const BASE_URL = "http://localhost:4000/user"; 
+const BASE_URL = "https://react-backend-infosecfuture.onrender.com/user"; 
 
 
 // handling the user registration
