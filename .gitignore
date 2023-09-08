@@ -2,6 +2,7 @@
 
 # dependencies
 /node api/node_modules
+/node api/.env
 /infosecfuture-website/node_modules
 /.pnp
 .pnp.js
