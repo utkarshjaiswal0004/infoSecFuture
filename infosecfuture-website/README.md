@@ -1,3 +1,9 @@
+# Check Website at
+React sample website:  [InfoSecFuture Sample React Website](https://bucolic-paprenjak-299acc.netlify.app)
+
+![InfoSecFuture Website Screenshot](./screenshot.png)
+
+
 # InfoSecFuture Website Test
 
 Welcome to the InfoSecFuture website repository! This is a React-based website showcasing our company's services and providing a registration page for interested users.
